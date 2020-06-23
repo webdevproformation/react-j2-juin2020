@@ -12,6 +12,7 @@ import Compteur from "./Compteur";
 import Menu from "./Menu";
 import Footer from "./Footer";
 import Article from "./Article";
+import Like from "./Like";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Menu />
       <Compteur />
       <Article />
+      <Like />
       <Footer />
     </div>
   );
