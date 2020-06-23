@@ -22,7 +22,7 @@ class Footer extends Component {
             <nav className="navbar navbar-expand navbar-light bg-primary">
                 <ul className="navbar-nav">
                     {this.state.contenu.map(
-                        (item, index) => <li className="nav-item m-2" key={index}>{item}</li>
+                        (item, index) => <li className="nav-item m-2" key={index}> {item}</li>
                     )}
                     {/** lorsque l'on crée une boucle avec map() React demande que l'on ajoute l'attribut key pour chaque élément répété = pour pouvoir les distinguer dans le Virtual DOM */}
                     {/** pouvez réaliser cette modification dans le Menu ? */}
