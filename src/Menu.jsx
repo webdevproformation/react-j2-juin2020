@@ -31,10 +31,11 @@ export default Menu;
 
 /**
  * state = {
- *  contenu = [ "Mentions légales" , "Copyright"]
+ *  contenu : [ "Mentions légales" , "Copyright"]
  * }
  */
 
  // afficher la liste de tous les éléments contenu dans la variable 
  // this.state.contenu dans une barre de menu qui sera afficher après le composant Compteur 
+ // utiliser bootstrap pour mettre en forme cette deuxième barre de menu
 
