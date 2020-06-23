@@ -56,3 +56,24 @@ export default Like;
 // en JS => document.querySelector(".btn").addEventListener("click", () => {
 //    document.querySelector(".badge").innerHTML = parseInt(document.querySelector(".badge").innerHTML) + 1
 //})
+
+/*
+Créer un nouveau composant Dislike
+
+dans son state valeur rating
+
+state = {
+    rating : 0
+}
+
+Dans le render
+
+    le chiffre du rating
+    bouton pour augmenter le rating
+    bouton pour diminuer le rating (utiliser bootstrap pour le styliser)
+
+
+    si vous cliquer augmenter => augmenter la valeur de rating de + 2 (maximum rating peut valeur 30)
+    si vous cliquer diminuer => diminuer la valeur de rating de -5 (minimum rating peut valeur -20)
+
+*/
