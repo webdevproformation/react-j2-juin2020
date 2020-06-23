@@ -18,18 +18,25 @@ class Like extends Component {
         //console.log(this.state);
         // utiliser une méthode de Component qui va modifier la valeur de count
         // this.setState() // 1 argument 1 objet
-        this.setState({
-            count: this.state.count + 1
-        });
+        if (this.state.count < 10) {
+            this.setState({
+                count: this.state.count + 1
+            });
+        }
+
+
         // dès le state est modifié via la méthode this.setState() => React va automatiquement
         // mettre à jour le render
     }
     // utilisé la méthode .bind() lors de l'appel de la fonction pour éviter d'avoir une perte de contexte du mot clé this
     add2() {
         console.log(this.state);
-        this.setState({
-            count: this.state.count - 1
-        });
+        if (this.state.count > 0) {
+            this.setState({
+                count: this.state.count - 1
+            });
+        }
+
     }
     render() {
         return (
@@ -38,6 +45,7 @@ class Like extends Component {
                 <span className="m-2 badge badge-success">{this.state.count}</span>
                 <button className="btn btn-info m-2" onClick={this.add}>+</button>
                 <button className="btn btn-secondary m-2" onClick={this.add2.bind(this)}>-</button>
+                <button className="btn btn-danger m-2" onMouseOver={this.add}>+</button>
             </div>
         );
     }
