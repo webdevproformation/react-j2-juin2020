@@ -41,9 +41,7 @@ export default Menu;
 
 
 // Créer un nouveau composant Article
-
 // dans son state  vous allez avoir les valeurs suivates
-
 /**
  * state :{
  *  titre : "Article 1",
@@ -60,7 +58,8 @@ export default Menu;
         <p> avec la valeur contenu du state </p>
     </article>
 */
-
 //afficher ce composant avant la composant Footer 
+// Bootstrap dispose du module Card  
+// système de grille de bootstrap pour générer la largeur de l'article
 
 

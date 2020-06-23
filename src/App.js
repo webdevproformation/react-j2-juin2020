@@ -11,12 +11,14 @@ import './App.css';
 import Compteur from "./Compteur";
 import Menu from "./Menu";
 import Footer from "./Footer";
+import Article from "./Article";
 
 function App() {
   return (
     <div className="container">
       <Menu />
       <Compteur />
+      <Article />
       <Footer />
     </div>
   );
