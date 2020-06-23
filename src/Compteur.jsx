@@ -78,4 +78,7 @@ export default Compteur;
 
 // bootstrap => module bootstrap NavBar qui permet de mettre en forme le menu  
 
+// créer un nouveau fichier dans src/Menu.jsx
+// associer ce nouveau composant au composant App.js
+// réaliser le composant 
 
