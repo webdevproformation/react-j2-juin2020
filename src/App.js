@@ -10,12 +10,14 @@ import './App.css';
 // src/Compteur.jsx
 import Compteur from "./Compteur";
 import Menu from "./Menu";
+import Footer from "./Footer";
 
 function App() {
   return (
     <div className="container">
       <Menu />
       <Compteur />
+      <Footer />
     </div>
   );
 }
