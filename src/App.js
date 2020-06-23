@@ -9,10 +9,12 @@ import './App.css';
 // créer un nouveau composant 
 // src/Compteur.jsx
 import Compteur from "./Compteur";
+import Menu from "./Menu";
 
 function App() {
   return (
     <div className="container">
+      <Menu />
       <Compteur />
     </div>
   );
