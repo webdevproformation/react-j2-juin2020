@@ -46,3 +46,36 @@ export default Compteur;
 // dans le projet jour1
 // Rappel.jsx
 // Suite.jsx 
+
+// créer un nouveau projet => jour2
+// télécharger et installé bootstrap => npm i bootstrap
+
+// créer un composant Compteur
+// associé au composant App.js
+// dans le composant Compteur 
+// Valeur 0
+// deux boutons Augmenter / Diminuer 
+// associer clique sur un des boutons modifié la variable state du composant
+
+// la class Compteur elle hérite de la class Component 
+// Compteur => Composant React 
+// React => npm // yarn
+// npm i bootstrap => npmjs.com => https://www.npmjs.com/package/bootstrap
+// yarn add bootstrap => https://classic.yarnpkg.com/fr/ 
+
+// npm => installé par défaut avec Nodejs 
+// yarn => npm i -g yarn
+
+// (dans le projet jour2) Pouvez vous créer un nouveau composant
+// Menu 
+// state = {
+//    contenu  : ["Accueil", "Présentation", "Blog" ];
+// } 
+
+// dans le render 
+// liste avec tous les éléments stockés dans la variable this.state.contenu
+// boucle .map()
+
+// bootstrap => module bootstrap NavBar qui permet de mettre en forme le menu  
+
+
