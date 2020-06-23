@@ -24,3 +24,17 @@ export default Menu;
 // pour l'instant vide 
 
 // déclarer dans App.js qui est lui aussi dans src
+
+// Dans le projet jour2
+// créer un nouveau composant Footer
+// dans sa propriété state lui donner les valeurs suivantes
+
+/**
+ * state = {
+ *  contenu = [ "Mentions légales" , "Copyright"]
+ * }
+ */
+
+ // afficher la liste de tous les éléments contenu dans la variable 
+ // this.state.contenu dans une barre de menu qui sera afficher après le composant Compteur 
+
