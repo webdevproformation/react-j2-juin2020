@@ -72,7 +72,6 @@ Dans le render
     bouton pour augmenter le rating
     bouton pour diminuer le rating (utiliser bootstrap pour le styliser)
 
-
     si vous cliquer augmenter => augmenter la valeur de rating de + 2 (maximum rating peut valeur 30)
     si vous cliquer diminuer => diminuer la valeur de rating de -5 (minimum rating peut valeur -20)
 

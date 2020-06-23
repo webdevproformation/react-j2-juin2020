@@ -14,6 +14,8 @@ import Footer from "./Footer";
 import Article from "./Article";
 import Like from "./Like";
 
+import Dislike from './Dislike';
+
 function App() {
   return (
     <div className="container">
@@ -21,6 +23,7 @@ function App() {
       <Compteur />
       <Article />
       <Like />
+      <Dislike />
       <Footer />
     </div>
   );
